@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "title": "Palantir Burro",
+      "images": {
+        "front": "IMG_6146.png",
+        "back": "IMG_6147.png"
+      },
+      "brand": "Bella & Canvas",
+      "dateObtained": "2020-06-15",
+      "organization": ["palantir"],
+      "tags": ["company", "intern"]
+    },
+    {
+      "title": "Github LGTM",
+      "images": {
+        "front": "IMG_6148.png"
+      },
+      "dateObtained": "2024-06-15",
+      "organization": ["github"],
+      "tags": ["company"]
+    },
+    {
+      "title": "Artifact 3",
+      "images": {
+        "front": "IMG_6149.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-12",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "title": "Artifact 4",
+      "images": {
+        "front": "IMG_6354.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-12",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "title": "Artifact 5",
+      "images": {
+        "front": "IMG_6355.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-12",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "title": "Artifact 6",
+      "images": {
+        "front": "IMG_6359.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-12",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "title": "Artifact 7",
+      "images": {
+        "front": "IMG_6360.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-12",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "title": "Artifact 8",
+      "images": {
+        "front": "IMG_6432.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-12",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    }
+  ]
+}
