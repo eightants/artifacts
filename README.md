@@ -1,7 +1,7 @@
-# Shirts
-Because every shirt has a story
+# Artifacts
+Because every item has a story
 
-The `data.json` file follows this format:
+The `data.json` files follow these formats:
 
 ```
 interface TShirt {
