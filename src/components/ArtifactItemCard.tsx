@@ -6,7 +6,7 @@ type Props = {
 
 export function ArtifactItemCard({ product }: Props) {
   return (
-    <div className="p-2 md:basis-1/2 lg:basis-1/3 basis-full text-left">
+    <div className="p-1 md:basis-1/2 lg:basis-1/3 basis-full text-left">
       <div className="group block cursor-pointer rounded-xl bg-secondary border border-border p-2 lg:p-6 hover:bg-secondary transition-background duration-[0.5s] w-full h-[240px] lg:h-[280px]">
         <div className="relative h-full">
           <img
@@ -25,11 +25,11 @@ export function ArtifactItemCard({ product }: Props) {
           )}
         </div>
       </div>
-      <div className="flex gap-2 justify-between px-2">
-        <p className="text-md font-medium">{product.title}</p>
-        <p className="text-md font-medium text-secondaryText">
-          {product.brand}
-        </p>
+      <div className="flex items-start justify-between px-1 pt-2 pb-8">
+        <div className="text-md font-medium uppercase">{product.title}</div>
+        <div className="text-md font-medium text-secondaryText">
+          {product.dateObtained.split("-")[0]}
+        </div>
       </div>
     </div>
   );

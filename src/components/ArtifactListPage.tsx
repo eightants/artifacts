@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArtifactItemCard } from "src/components/ArtifactItemCard";
+import { Dropdown } from "src/components/Dropdown";
 import { useThemeContext } from "src/components/ThemeContext";
 import "src/index.css";
 import { TShirt } from "src/types";
@@ -7,6 +8,9 @@ import { TShirt } from "src/types";
 export function ArtifactListPage() {
   const { isDark } = useThemeContext();
   const [products, setProducts] = useState<TShirt[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<TShirt[]>([]);
+  const [sortOrder, setSortOrder] = useState("desc");
+  const [sortBy, setSortBy] = useState("dateObtained");
 
   useEffect(() => {
     // Fetch data from data.json
@@ -16,15 +20,90 @@ export function ArtifactListPage() {
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
+  useEffect(() => {
+    const productArray = [...products];
+
+    if (sortBy === "dateObtained") {
+      setFilteredProducts(
+        sortOrder === "asc"
+          ? productArray.sort((a, b) =>
+              a.dateObtained.localeCompare(b.dateObtained)
+            )
+          : productArray.sort((a, b) =>
+              b.dateObtained.localeCompare(a.dateObtained)
+            )
+      );
+    } else if (sortBy === "name") {
+      setFilteredProducts(
+        sortOrder === "asc"
+          ? productArray.sort((a, b) => a.title.localeCompare(b.title))
+          : productArray.sort((a, b) => b.title.localeCompare(a.title))
+      );
+    }
+  }, [products, sortBy, sortOrder]);
+
   return (
     <div
       className={`min-h-screen ${
         isDark ? "dark" : ""
-      } text-center mt-12 mb-6 relative w-full max-w-[1000px] mx-auto`}
+      } mt-12 mb-6 relative w-full max-w-[1000px] mx-auto`}
     >
-      <h1 className="text-3xl font-bold mb-6">Artifacts</h1>
+      <div className="mb-6 lg:mb-[80px] flex justify-between items-start">
+        <div className="flex items-start">
+          <h1 className="text-4xl lg:text-[100px] font-medium">SHIRTS</h1>
+          <div>{products.length}</div>
+        </div>
+
+        <div className="w-full lg:w-1/2">
+          College was the golden age of free shirts. I collected shirts from
+          hackathons, internships, and events. Hackathons were especially
+          rewarding, while internships and career fairs often yielded unique
+          ones. By the end, I had a closet full of shirts, each representing a
+          memorable experience. Even now, the collection is still growing.
+        </div>
+      </div>
+
+      <div className="py-4 flex gap-2">
+        <Dropdown
+          defaultValue="year"
+          label=""
+          prefix="Sort by"
+          options={[
+            {
+              label: "Year",
+              value: "dateObtained",
+            },
+            {
+              label: "Name",
+              value: "name",
+            },
+          ]}
+          onChange={(value) => {
+            setSortBy(value);
+          }}
+        />
+
+        <Dropdown
+          defaultValue="desc"
+          label=""
+          options={[
+            {
+              label: "Ascending",
+              value: "asc",
+            },
+            {
+              label: "Descending",
+              value: "desc",
+            },
+          ]}
+          onChange={(value) => {
+            setSortOrder(value);
+          }}
+        />
+      </div>
+
       <div className="flex flex-wrap -mx-2">
-        {products.map((product, idx) => (
+        {filteredProducts.map((product, idx) => (
           <ArtifactItemCard key={idx} product={product} />
         ))}
       </div>

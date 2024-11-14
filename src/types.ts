@@ -1,4 +1,4 @@
-export interface TShirt {
+export type TShirt = {
   title: string;
   images: {
     front: string; // path to image
@@ -8,4 +8,4 @@ export interface TShirt {
   dateObtained: string; // 'YYYY-MM-DD'
   organization: string[];
   tags: string[];
-}
+};
