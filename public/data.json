@@ -21,19 +21,31 @@
       "tags": ["company"]
     },
     {
-      "title": "Artifact 3",
+      "title": "Snoopy",
       "images": {
         "front": "IMG_6149.png"
       },
-      "brand": "Unknown",
+      "brand": "Uniqlo",
       "dateObtained": "2024-11-12",
       "organization": ["unknown"],
       "tags": ["artifact"]
     },
     {
-      "title": "Artifact 4",
+      "title": "Citadel Logo",
       "images": {
-        "front": "IMG_6354.png"
+        "front": "IMG_6354.png",
+        "back": "IMG_6355.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-12",
+      "organization": ["Citadel"],
+      "tags": ["company", "hackathon"]
+    },
+    {
+      "title": "MLH 2023 Season",
+      "images": {
+        "front": "IMG_6359.png",
+        "back": "IMG_6360.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-12",
@@ -41,37 +53,7 @@
       "tags": ["artifact"]
     },
     {
-      "title": "Artifact 5",
-      "images": {
-        "front": "IMG_6355.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-12",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 6",
-      "images": {
-        "front": "IMG_6359.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-12",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 7",
-      "images": {
-        "front": "IMG_6360.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-12",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 8",
+      "title": "ICPC 2019 Southeastern Regionals",
       "images": {
         "front": "IMG_6432.png"
       },
