@@ -20,11 +20,16 @@ export function Home() {
             These items remind us of our favorite moments, but they also start
             to pile up.
           </p>
-          <div className="flex gap-4 mt-4 justify-evenly">
+          <div className="flex gap-4 mt-8 justify-evenly">
             <a className="uppercase underline" href="/how-it-works">
               How it works
             </a>
-            <a className="uppercase underline" href="/">
+            <a
+              className="uppercase underline"
+              href="https://github.com/eightants/artifacts"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github
             </a>
           </div>
