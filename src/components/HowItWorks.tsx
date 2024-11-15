@@ -40,8 +40,11 @@ export function HowItWorks() {
               </a>{" "}
               to segment out your artifact from each image. If your device can
               run ipynb files with GPU, you can do it locally. Otherwise, I
-              recommend Kaggle since you get 30 free GPU hours per week. Once
-              this is done, all the segmented images will be in /shirts/output
+              recommend Kaggle since you get 30 free GPU hours per week.
+            </li>
+            <li>
+              Once this is done, download the zip file output from Kaggle and
+              upload all the segmented images to /shirts/output
             </li>
             <li>
               In App.tsx, update <code>artifactNames</code> to use the name of
