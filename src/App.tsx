@@ -6,6 +6,8 @@ import "./index.css";
 import { Navbar } from "src/components/Navbar";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Home } from "src/components/Home";
+import { ArtifactItemPage } from "src/components/ArtifactItemPage";
+import { HowItWorks } from "src/components/HowItWorks";
 
 type ArtifactItem = {
   path: string;
@@ -62,12 +64,21 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/how-it-works" element={<HowItWorks />} />
+
             {artifactNames.map(({ path }) => (
-              <Route
-                key={path}
-                path={`/${path}`}
-                element={<ArtifactListPage artifactName={path} />}
-              />
+              <>
+                <Route
+                  key={path}
+                  path={`/${path}`}
+                  element={<ArtifactListPage artifactName={path} />}
+                />
+                <Route
+                  key={path}
+                  path={`/${path}/:id`}
+                  element={<ArtifactItemPage artifactName={path} />}
+                />
+              </>
             ))}
           </Routes>
         </Router>

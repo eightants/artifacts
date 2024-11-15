@@ -229,6 +229,10 @@ ul {
   color: theme('colors.primaryText');
 }
 
+a {
+  text-decoration: underline;
+}
+
 a.custom-link {
   text-decoration: underline;
   text-decoration-color: var(--color-gray-400);

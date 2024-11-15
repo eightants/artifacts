@@ -18,12 +18,12 @@ export function Navbar({
 
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <div className="uppercase cursor-pointer">Projects</div>
+          <div className="uppercase cursor-pointer">ITEMS</div>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56 bg-primary text-secondaryText mt-2 mx-4">
+        <DropdownMenuContent className="w-80 bg-primary text-secondaryText mt-2 mx-4">
           {items.map((item) => (
             <DropdownMenuItem
-              className="uppercase cursor-pointer"
+              className="uppercase cursor-pointer text-xl"
               onClick={() => {
                 window.location.href = `${`/${item.value}`}`;
               }}
