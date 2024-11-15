@@ -3,22 +3,26 @@ import { ArtifactItemCard } from "src/components/ArtifactItemCard";
 import { Dropdown } from "src/components/Dropdown";
 import { useThemeContext } from "src/components/ThemeContext";
 import "src/index.css";
-import { TShirt } from "src/types";
+import { Artifact } from "src/types";
 
-export function ArtifactListPage() {
+type Props = {
+  artifactName: string;
+};
+
+export function ArtifactListPage({ artifactName }: Props) {
   const { isDark } = useThemeContext();
-  const [products, setProducts] = useState<TShirt[]>([]);
-  const [filteredProducts, setFilteredProducts] = useState<TShirt[]>([]);
+  const [products, setProducts] = useState<Artifact[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Artifact[]>([]);
   const [sortOrder, setSortOrder] = useState("desc");
   const [sortBy, setSortBy] = useState("dateObtained");
 
   useEffect(() => {
     // Fetch data from data.json
-    fetch("/data.json")
+    fetch(`/${artifactName}/data.json`)
       .then((response) => response.json())
       .then(({ data }) => setProducts(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  }, [artifactName]);
 
   useEffect(() => {
     const productArray = [...products];
@@ -104,7 +108,11 @@ export function ArtifactListPage() {
 
       <div className="flex flex-wrap -mx-2">
         {filteredProducts.map((product, idx) => (
-          <ArtifactItemCard key={idx} product={product} />
+          <ArtifactItemCard
+            key={idx}
+            product={product}
+            artifactName={artifactName}
+          />
         ))}
       </div>
     </div>

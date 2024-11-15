@@ -3,6 +3,22 @@ import useLocalStorage from "src/hooks/useLocalStorage";
 import { useEffect, useState } from "react";
 import { ThemeContextProvider } from "./components/ThemeContext";
 import "./index.css";
+import { Navbar } from "src/components/Navbar";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Home } from "src/components/Home";
+
+type ArtifactItem = {
+  path: string;
+  description?: string;
+};
+
+const artifactNames: ArtifactItem[] = [
+  {
+    path: "shirts",
+    description:
+      "College was the golden age of free shirts. I collected shirts from hackathons, internships, and events. Hackathons were especially rewarding, while internships and career fairs often yielded unique ones. By the end, I had a closet full of shirts, each representing a memorable experience. Even now, the collection is still growing.",
+  },
+];
 
 function App() {
   const [isDark, setIsDark] = useLocalStorage<boolean>("isDark", false);
@@ -37,7 +53,24 @@ function App() {
           mounted && isDark ? "darkMode" : "lightMode"
         }`}
       >
-        <ArtifactListPage />
+        <Navbar
+          items={artifactNames.map(({ path }) => ({
+            label: path,
+            value: path,
+          }))}
+        />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {artifactNames.map(({ path }) => (
+              <Route
+                key={path}
+                path={`/${path}`}
+                element={<ArtifactListPage artifactName={path} />}
+              />
+            ))}
+          </Routes>
+        </Router>
       </div>
     </ThemeContextProvider>
   );

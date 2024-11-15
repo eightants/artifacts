@@ -1,4 +1,4 @@
-export type TShirt = {
+export type Artifact = {
   title: string;
   images: {
     front: string; // path to image
@@ -6,6 +6,6 @@ export type TShirt = {
   };
   brand?: string;
   dateObtained: string; // 'YYYY-MM-DD'
-  organization: string[];
+  organization?: string[];
   tags: string[];
 };
