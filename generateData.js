@@ -1,9 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 
+const artifactName = "shirts";
+
 // Path to the output folder
-const outputDir = path.join(__dirname, "public", "output");
-const dataFilePath = path.join(__dirname, "public", "data.json");
+const outputDir = path.join(__dirname, "public", artifactName, "output");
+const dataFilePath = path.join(__dirname, "public", artifactName, "data.json");
 
 // Read existing data.json
 fs.readFile(dataFilePath, "utf8", (err, dataContent) => {

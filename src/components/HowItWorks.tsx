@@ -47,6 +47,11 @@ export function HowItWorks() {
               In App.tsx, update <code>artifactNames</code> to use the name of
               your folder, in our case, shirts
             </li>
+            <li>
+              In generateData.js, update <code>artifactName</code> to use the
+              name of your folder, in our case, shirts. Then, run{" "}
+              <code>node generateData.js</code>
+            </li>
           </ol>
         </div>
       </div>
