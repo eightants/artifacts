@@ -47,6 +47,7 @@ fs.readFile(dataFilePath, "utf8", (err, dataContent) => {
     const newEntries = imageFiles
       .filter((file) => !existingImages.has(file))
       .map((file, index) => ({
+        id: `${existingData.length + index + 1}`,
         title: `Artifact ${existingData.length + index + 1}`,
         images: {
           front: file,

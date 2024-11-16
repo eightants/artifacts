@@ -9,7 +9,8 @@
       "brand": "Bella & Canvas",
       "dateObtained": "2022-07-15",
       "organization": ["palantir"],
-      "tags": ["company", "intern"]
+      "tags": ["company", "intern"],
+      "id": "1"
     },
     {
       "title": "Github LGTM",
@@ -18,7 +19,8 @@
       },
       "dateObtained": "2024-06-15",
       "organization": ["github"],
-      "tags": ["company"]
+      "tags": ["company"],
+      "id": "2"
     },
     {
       "title": "Snoopy",
@@ -28,7 +30,8 @@
       "brand": "Uniqlo",
       "dateObtained": "2022-11-12",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "3"
     },
     {
       "title": "Citadel Logo",
@@ -39,7 +42,8 @@
       "brand": "Unknown",
       "dateObtained": "2019-11-12",
       "organization": ["Citadel"],
-      "tags": ["company", "hackathon"]
+      "tags": ["company", "hackathon"],
+      "id": "4"
     },
     {
       "title": "MLH 2023 Season",
@@ -50,7 +54,8 @@
       "brand": "Unknown",
       "dateObtained": "2023-01-12",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "5"
     },
     {
       "title": "ICPC 2019 Southeastern Regionals",
@@ -60,7 +65,8 @@
       "brand": "Unknown",
       "dateObtained": "2019-11-12",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "6"
     },
     {
       "title": "Artifact 7",
@@ -71,7 +77,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "7"
     },
     {
       "title": "Artifact 9",
@@ -81,7 +88,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "8"
     },
     {
       "title": "Artifact 10",
@@ -92,7 +100,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "9"
     },
     {
       "title": "Artifact 12",
@@ -103,7 +112,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "10"
     },
     {
       "title": "Artifact 14",
@@ -113,7 +123,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "11"
     },
     {
       "title": "Artifact 15",
@@ -124,7 +135,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "12"
     },
     {
       "title": "Artifact 17",
@@ -135,7 +147,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "13"
     },
     {
       "title": "Artifact 19",
@@ -146,7 +159,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "14"
     },
     {
       "title": "Artifact 21",
@@ -157,7 +171,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "15"
     },
     {
       "title": "Artifact 23",
@@ -168,7 +183,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "16"
     },
     {
       "title": "Artifact 25",
@@ -179,7 +195,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "17"
     },
     {
       "title": "Artifact 27",
@@ -189,7 +206,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "18"
     },
     {
       "title": "Artifact 28",
@@ -200,7 +218,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "19"
     },
     {
       "title": "Artifact 30",
@@ -210,7 +229,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "20"
     },
     {
       "title": "Artifact 31",
@@ -221,7 +241,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "21"
     },
     {
       "title": "Artifact 33",
@@ -231,7 +252,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "22"
     },
     {
       "title": "Artifact 34",
@@ -242,7 +264,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "23"
     },
     {
       "title": "Artifact 36",
@@ -252,7 +275,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "24"
     },
     {
       "title": "Artifact 37",
@@ -263,7 +287,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "25"
     },
     {
       "title": "Artifact 39",
@@ -273,7 +298,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "26"
     },
     {
       "title": "Artifact 40",
@@ -283,7 +309,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "27"
     },
     {
       "title": "Artifact 41",
@@ -294,7 +321,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "28"
     },
     {
       "title": "Artifact 43",
@@ -305,7 +333,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "29"
     },
     {
       "title": "Artifact 45",
@@ -316,7 +345,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "30"
     },
     {
       "title": "Artifact 47",
@@ -327,7 +357,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "31"
     },
     {
       "title": "Artifact 49",
@@ -338,7 +369,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "32"
     },
     {
       "title": "Artifact 51",
@@ -348,7 +380,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "33"
     },
     {
       "title": "Artifact 52",
@@ -359,7 +392,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "34"
     },
     {
       "title": "Artifact 54",
@@ -370,7 +404,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "35"
     },
     {
       "title": "Artifact 56",
@@ -381,7 +416,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "36"
     },
     {
       "title": "Artifact 58",
@@ -392,7 +428,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "37"
     },
     {
       "title": "Artifact 60",
@@ -403,7 +440,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "38"
     },
     {
       "title": "Artifact 62",
@@ -413,7 +451,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "39"
     },
     {
       "title": "Artifact 63",
@@ -423,7 +462,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "40"
     },
     {
       "title": "Artifact 64",
@@ -433,7 +473,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "41"
     },
     {
       "title": "Artifact 65",
@@ -443,7 +484,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "42"
     },
     {
       "title": "Artifact 66",
@@ -453,7 +495,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "43"
     },
     {
       "title": "Artifact 67",
@@ -464,7 +507,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "44"
     },
     {
       "title": "Artifact 69",
@@ -475,7 +519,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "45"
     },
     {
       "title": "Artifact 71",
@@ -485,7 +530,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "46"
     },
     {
       "title": "Artifact 72",
@@ -495,7 +541,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "47"
     },
     {
       "title": "Artifact 73",
@@ -505,7 +552,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "48"
     },
     {
       "title": "Artifact 74",
@@ -515,7 +563,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "49"
     },
     {
       "title": "Artifact 75",
@@ -525,7 +574,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "50"
     },
     {
       "title": "Artifact 76",
@@ -535,7 +585,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "51"
     },
     {
       "title": "Artifact 77",
@@ -545,7 +596,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "52"
     },
     {
       "title": "Artifact 78",
@@ -555,7 +607,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "53"
     },
     {
       "title": "Artifact 79",
@@ -565,7 +618,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "54"
     },
     {
       "title": "Artifact 80",
@@ -575,7 +629,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "55"
     },
     {
       "title": "Artifact 81",
@@ -585,7 +640,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "56"
     },
     {
       "title": "Artifact 82",
@@ -595,7 +651,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "57"
     },
     {
       "title": "Artifact 83",
@@ -605,7 +662,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "58"
     },
     {
       "title": "Artifact 84",
@@ -615,7 +673,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "59"
     },
     {
       "title": "Artifact 85",
@@ -625,7 +684,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "60"
     },
     {
       "title": "Artifact 86",
@@ -635,7 +695,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "61"
     },
     {
       "title": "Artifact 87",
@@ -645,7 +706,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "62"
     },
     {
       "title": "Artifact 88",
@@ -655,7 +717,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "63"
     },
     {
       "title": "Artifact 89",
@@ -665,7 +728,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "64"
     },
     {
       "title": "Artifact 90",
@@ -675,7 +739,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "65"
     },
     {
       "title": "Artifact 91",
@@ -685,7 +750,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "66"
     },
     {
       "title": "Artifact 92",
@@ -695,7 +761,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "67"
     },
     {
       "title": "Artifact 93",
@@ -705,7 +772,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "68"
     },
     {
       "title": "Artifact 94",
@@ -715,7 +783,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "69"
     },
     {
       "title": "Artifact 95",
@@ -725,7 +794,8 @@
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"]
+      "tags": ["artifact"],
+      "id": "70"
     }
   ]
 }
