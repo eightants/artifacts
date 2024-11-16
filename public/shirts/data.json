@@ -105,38 +105,38 @@
       "id": "9"
     },
     {
-      "title": "Artifact 12",
+      "title": "JP Morgan Code for Good",
       "images": {
         "front": "IMG_6374.png",
         "back": "IMG_6375.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2019-01-30",
+      "organization": ["JP Morgan"],
+      "tags": ["jp morgan", "hackathon", "company"],
       "id": "10"
     },
     {
-      "title": "Artifact 14",
+      "title": "LechFadden Community",
       "images": {
         "front": "IMG_6378.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2018-08-30",
+      "organization": ["TAMU"],
+      "tags": ["tamu", "college"],
       "id": "11"
     },
     {
-      "title": "Artifact 15",
+      "title": "MSC Birthday 2019",
       "images": {
         "front": "IMG_6379.png",
         "back": "IMG_6380.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2019-02-15",
+      "organization": ["TAMU"],
+      "tags": ["tamu", "college", "event"],
       "id": "12"
     },
     {
@@ -164,15 +164,15 @@
       "id": "14"
     },
     {
-      "title": "Artifact 21",
+      "title": "HowdyHack 2022",
       "images": {
         "front": "IMG_6385.png",
         "back": "IMG_6387.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2022-09-15",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "15"
     },
     {
@@ -200,14 +200,14 @@
       "id": "17"
     },
     {
-      "title": "Artifact 27",
+      "title": "Sketch Recognition Lab",
       "images": {
         "front": "IMG_6394.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2021-11-15",
+      "organization": ["TAMU"],
+      "tags": ["tamu", "college"],
       "id": "18"
     },
     {
