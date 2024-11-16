@@ -66,12 +66,17 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
 
-            {artifactNames.map(({ path }) => (
+            {artifactNames.map(({ path, description }) => (
               <>
                 <Route
                   key={path}
                   path={`/${path}`}
-                  element={<ArtifactListPage artifactName={path} />}
+                  element={
+                    <ArtifactListPage
+                      artifactName={path}
+                      description={description}
+                    />
+                  }
                 />
                 <Route
                   key={path}

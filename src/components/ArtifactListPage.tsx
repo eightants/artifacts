@@ -7,9 +7,10 @@ import { Artifact } from "src/types";
 
 type Props = {
   artifactName: string;
+  description?: string;
 };
 
-export function ArtifactListPage({ artifactName }: Props) {
+export function ArtifactListPage({ artifactName, description }: Props) {
   const { isDark } = useThemeContext();
   const [products, setProducts] = useState<Artifact[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Artifact[]>([]);
@@ -58,13 +59,7 @@ export function ArtifactListPage({ artifactName }: Props) {
           <div>{products.length}</div>
         </div>
 
-        <div className="w-full lg:w-1/2">
-          College was the golden age of free shirts. I collected shirts from
-          hackathons, internships, and events. Hackathons were especially
-          rewarding, while internships and career fairs often yielded unique
-          ones. By the end, I had a closet full of shirts, each representing a
-          memorable experience. Even now, the collection is still growing.
-        </div>
+        <div className="w-full lg:w-1/2">{description}</div>
       </div>
 
       <div className="py-4 flex gap-2">
