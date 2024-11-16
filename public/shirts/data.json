@@ -99,7 +99,7 @@
         "back": "IMG_6373.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2021-11-15",
+      "dateObtained": "2020-11-15",
       "organization": ["unknown"],
       "tags": ["tamu", "datathon", "hackathon"],
       "id": "9"
@@ -344,7 +344,7 @@
         "back": "IMG_6413.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2022-05-15",
+      "dateObtained": "2020-05-15",
       "organization": ["SF Hacks"],
       "tags": ["hackathon"],
       "id": "30"
@@ -397,13 +397,13 @@
       "id": "34"
     },
     {
-      "title": "TAMU Datathon 2020 Staff",
+      "title": "TAMU Datathon 2021 Staff",
       "images": {
         "front": "IMG_6422.png",
         "back": "IMG_6423.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2020-11-15",
+      "dateObtained": "2021-11-15",
       "organization": ["unknown"],
       "tags": ["datathon", "tamu", "college", "hackathon"],
       "id": "35"
