@@ -158,7 +158,7 @@
         "back": "IMG_6384.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2019-11-15",
+      "dateObtained": "2019-01-30",
       "organization": ["MLH"],
       "tags": ["mlh", "hackathon"],
       "id": "14"
@@ -450,7 +450,7 @@
         "front": "IMG_6430.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2021-07-15",
       "organization": ["Theo Chocolate"],
       "tags": ["seattle"],
       "id": "39"
@@ -461,7 +461,7 @@
         "front": "IMG_6431.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2023-08-15",
       "organization": ["CUHK"],
       "tags": ["college"],
       "id": "40"
@@ -531,32 +531,32 @@
         "back": "IMG_6444.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2021-11-15",
       "organization": ["IEEE TAMU"],
       "tags": ["ieee", "college", "tamu"],
       "id": "48"
     },
     {
-      "title": "Artifact 75",
+      "title": "RowdyHacks 2020",
       "images": {
         "front": "IMG_6445.png",
         "back": "IMG_6446.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2020-05-15",
+      "organization": ["RowdyHacks"],
+      "tags": ["hackathon", "rowdyhacks", "college"],
       "id": "50"
     },
     {
-      "title": "Artifact 77",
+      "title": "EarthxHack 2020",
       "images": {
         "front": "IMG_6447.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["Asterisk"],
+      "tags": ["hackathon"],
       "id": "52"
     },
     {
@@ -572,14 +572,14 @@
       "id": "53"
     },
     {
-      "title": "Artifact 80",
+      "title": "Highlight @anthony",
       "images": {
         "front": "IMG_6451.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2021-07-15",
+      "organization": ["Highlight"],
+      "tags": ["highlight", "company"],
       "id": "55"
     },
     {
@@ -606,26 +606,26 @@
       "id": "57"
     },
     {
-      "title": "Artifact 84",
+      "title": "HowdyHack 2021",
       "images": {
         "front": "IMG_6471.png",
         "back": "IMG_6472.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2021-09-15",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "59"
     },
     {
-      "title": "Artifact 86",
+      "title": "HowdyHack 2019",
       "images": {
         "front": "IMG_6473.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2019-09-15",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "61"
     },
     {
@@ -653,14 +653,14 @@
       "id": "64"
     },
     {
-      "title": "Artifact 91",
+      "title": "Aggie Coding Club",
       "images": {
         "front": "IMG_6487.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2021-11-15",
+      "organization": ["acc"],
+      "tags": ["tamu", "college", "acc"],
       "id": "66"
     },
     {
@@ -676,25 +676,25 @@
       "id": "67"
     },
     {
-      "title": "Artifact 94",
+      "title": "Meta Blue",
       "images": {
         "front": "IMG_6490.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-06-15",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship", "facebook"],
       "id": "69"
     },
     {
-      "title": "Artifact 95",
+      "title": "HackTX 2019 Capital One",
       "images": {
         "front": "IMG_6491.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2019-11-15",
+      "organization": ["Capital One"],
+      "tags": ["hackathon", "college", "capital one"],
       "id": "70"
     }
   ]
