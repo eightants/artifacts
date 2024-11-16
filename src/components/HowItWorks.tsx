@@ -31,7 +31,7 @@ export function HowItWorks() {
             <li>
               Run{" "}
               <a
-                href="https://www.kaggle.com/code/eightants/bulk-object-extraction-from-images"
+                href="https://www.kaggle.com/code/eightants/artifacts-bulk-object-extraction-from-images"
                 target="_blank"
                 rel="noreferrer"
                 className="underline"

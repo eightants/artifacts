@@ -353,17 +353,8 @@
     {
       "title": "Artifact 52",
       "images": {
-        "front": "IMG_6420.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 53",
-      "images": {
-        "front": "IMG_6421.png"
+        "front": "IMG_6420.png",
+        "back": "IMG_6421.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
@@ -373,17 +364,8 @@
     {
       "title": "Artifact 54",
       "images": {
-        "front": "IMG_6422.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 55",
-      "images": {
-        "front": "IMG_6423.png"
+        "front": "IMG_6422.png",
+        "back": "IMG_6423.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
@@ -393,17 +375,8 @@
     {
       "title": "Artifact 56",
       "images": {
-        "front": "IMG_6424.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 57",
-      "images": {
-        "front": "IMG_6425.png"
+        "front": "IMG_6424.png",
+        "back": "IMG_6425.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
@@ -413,17 +386,8 @@
     {
       "title": "Artifact 58",
       "images": {
-        "front": "IMG_6426.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 59",
-      "images": {
-        "front": "IMG_6427.png"
+        "front": "IMG_6426.png",
+        "back": "IMG_6427.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
@@ -433,17 +397,8 @@
     {
       "title": "Artifact 60",
       "images": {
-        "front": "IMG_6428.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 61",
-      "images": {
-        "front": "IMG_6429.png"
+        "front": "IMG_6428.png",
+        "back": "IMG_6429.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
@@ -503,17 +458,8 @@
     {
       "title": "Artifact 67",
       "images": {
-        "front": "IMG_6437.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 68",
-      "images": {
-        "front": "IMG_6438.png"
+        "front": "IMG_6437.png",
+        "back": "IMG_6438.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
@@ -523,17 +469,8 @@
     {
       "title": "Artifact 69",
       "images": {
-        "front": "IMG_6439.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "title": "Artifact 70",
-      "images": {
-        "front": "IMG_6440.png"
+        "front": "IMG_6439.png",
+        "back": "IMG_6440.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
