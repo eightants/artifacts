@@ -211,24 +211,24 @@
       "id": "18"
     },
     {
-      "title": "Artifact 28",
+      "title": "TAMU Engineering",
       "images": {
         "front": "IMG_6395.png",
         "back": "IMG_6396.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2018-08-15",
+      "organization": ["TAMU"],
+      "tags": ["tamu", "college"],
       "id": "19"
     },
     {
-      "title": "Artifact 30",
+      "title": "TAMU",
       "images": {
         "front": "IMG_6397.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2020-04-15",
       "organization": ["unknown"],
       "tags": ["artifact"],
       "id": "20"
@@ -241,19 +241,19 @@
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["TAMU"],
+      "tags": ["tamu", "college"],
       "id": "21"
     },
     {
-      "title": "Artifact 33",
+      "title": "Fish Camp '22",
       "images": {
         "front": "IMG_6400.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2018-08-15",
+      "organization": ["TAMU"],
+      "tags": ["tamu", "college"],
       "id": "22"
     },
     {
@@ -269,26 +269,26 @@
       "id": "23"
     },
     {
-      "title": "Artifact 36",
+      "title": "TAMUMake 2020",
       "images": {
         "front": "IMG_6403.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2020-03-15",
+      "organization": ["IEEE TAMU"],
+      "tags": ["college", "hackathon", "tamu"],
       "id": "24"
     },
     {
-      "title": "Artifact 37",
+      "title": "Linode Coder",
       "images": {
         "front": "IMG_6404.png",
         "back": "IMG_6405.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2020-05-15",
+      "organization": ["Linode"],
+      "tags": ["college", "hackathon", "linode"],
       "id": "25"
     },
     {
@@ -308,7 +308,7 @@
         "front": "IMG_6407.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2020-11-15",
       "organization": ["Paycom"],
       "tags": ["paycom", "company"],
       "id": "27"
@@ -326,15 +326,15 @@
       "id": "28"
     },
     {
-      "title": "Artifact 43",
+      "title": "HooHacks 2020",
       "images": {
         "front": "IMG_6410.png",
         "back": "IMG_6411.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2020-05-15",
+      "organization": ["HooHacks"],
+      "tags": ["college", "hackathon"],
       "id": "29"
     },
     {
@@ -385,15 +385,15 @@
       "id": "33"
     },
     {
-      "title": "Artifact 52",
+      "title": "ShellHacks 2020",
       "images": {
         "front": "IMG_6420.png",
         "back": "IMG_6421.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2020-05-15",
+      "organization": ["ShellHacks"],
+      "tags": ["college", "hackathon"],
       "id": "34"
     },
     {
@@ -445,59 +445,59 @@
       "id": "38"
     },
     {
-      "title": "Artifact 62",
+      "title": "Theo Chocolate",
       "images": {
         "front": "IMG_6430.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["Theo Chocolate"],
+      "tags": ["seattle"],
       "id": "39"
     },
     {
-      "title": "Artifact 63",
+      "title": "City University of Hong Kong",
       "images": {
         "front": "IMG_6431.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["CUHK"],
+      "tags": ["college"],
       "id": "40"
     },
     {
-      "title": "Artifact 65",
+      "title": "HowdyHack 2020",
       "images": {
         "front": "IMG_6434.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2020-09-15",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "42"
     },
     {
-      "title": "Artifact 66",
+      "title": "Meta Black",
       "images": {
         "front": "IMG_6436.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-05-15",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"],
       "id": "43"
     },
     {
-      "title": "Artifact 67",
+      "title": "TAMU AMSA 1",
       "images": {
         "front": "IMG_6437.png",
         "back": "IMG_6438.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Comfort Colors",
+      "dateObtained": "2020-01-15",
+      "organization": ["TAMU AMSA"],
+      "tags": ["tamu", "college", "amsa"],
       "id": "44"
     },
     {
@@ -513,27 +513,27 @@
       "id": "45"
     },
     {
-      "title": "Artifact 72",
+      "title": "Gartner",
       "images": {
         "front": "IMG_6442.png",
         "back": "IMG_6441.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2019-01-30",
+      "organization": ["Gartner"],
+      "tags": ["gartner", "company", "hackathon", "college"],
       "id": "47"
     },
     {
-      "title": "Artifact 73",
+      "title": "IEEE TAMU",
       "images": {
         "front": "IMG_6443.png",
         "back": "IMG_6444.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["IEEE TAMU"],
+      "tags": ["ieee", "college", "tamu"],
       "id": "48"
     },
     {
@@ -560,15 +560,15 @@
       "id": "52"
     },
     {
-      "title": "Artifact 78",
+      "title": "TAMU AMSA 2",
       "images": {
         "front": "IMG_6448.png",
         "back": "IMG_6449.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2021-11-15",
+      "organization": ["TAMU AMSA"],
+      "tags": ["tamu", "college", "amsa"],
       "id": "53"
     },
     {
