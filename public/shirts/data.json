@@ -60,47 +60,48 @@
     {
       "title": "ICPC 2019 Southeastern Regionals",
       "images": {
-        "front": "IMG_6432.png"
+        "front": "IMG_6432.png",
+        "back": "IMG_6433.png"
       },
       "brand": "Unknown",
       "dateObtained": "2019-11-12",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["ICPC"],
+      "tags": ["college", "icpc", "contest"],
       "id": "6"
     },
     {
-      "title": "Artifact 7",
+      "title": "CMU MHCI'23",
       "images": {
         "front": "IMG_6369.png",
         "back": "IMG_6370.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-09-15",
+      "organization": ["CMU"],
+      "tags": ["mhci", "cmu", "college", "department"],
       "id": "7"
     },
     {
-      "title": "Artifact 9",
+      "title": "Golang",
       "images": {
         "front": "IMG_6371.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2017-06-15",
+      "organization": ["Marktplaats"],
+      "tags": ["internship", "golang", "company", "google"],
       "id": "8"
     },
     {
-      "title": "Artifact 10",
+      "title": "TAMU Datathon 2020 Participant",
       "images": {
         "front": "IMG_6372.png",
         "back": "IMG_6373.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2021-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"],
+      "tags": ["tamu", "datathon", "hackathon"],
       "id": "9"
     },
     {
@@ -139,27 +140,27 @@
       "id": "12"
     },
     {
-      "title": "Artifact 17",
+      "title": "MLH 2020 Season",
       "images": {
         "front": "IMG_6381.png",
         "back": "IMG_6382.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2020-11-15",
+      "organization": ["MLH"],
+      "tags": ["mlh", "hackathon"],
       "id": "13"
     },
     {
-      "title": "Artifact 19",
+      "title": "MLH 2019 Season",
       "images": {
         "front": "IMG_6383.png",
         "back": "IMG_6384.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2019-11-15",
+      "organization": ["MLH"],
+      "tags": ["mlh", "hackathon"],
       "id": "14"
     },
     {
@@ -464,17 +465,6 @@
       "organization": ["unknown"],
       "tags": ["artifact"],
       "id": "40"
-    },
-    {
-      "title": "Artifact 64",
-      "images": {
-        "front": "IMG_6433.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
-      "id": "41"
     },
     {
       "title": "Artifact 65",
