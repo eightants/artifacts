@@ -397,49 +397,49 @@
       "id": "34"
     },
     {
-      "title": "Artifact 54",
+      "title": "TAMU Datathon 2020 Staff",
       "images": {
         "front": "IMG_6422.png",
         "back": "IMG_6423.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2020-11-15",
       "organization": ["unknown"],
-      "tags": ["artifact"],
+      "tags": ["datathon", "tamu", "college", "hackathon"],
       "id": "35"
     },
     {
-      "title": "Artifact 56",
+      "title": "TAMUhack 2020",
       "images": {
         "front": "IMG_6424.png",
         "back": "IMG_6425.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2020-01-30",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "36"
     },
     {
-      "title": "Artifact 58",
+      "title": "TAMU Datathon 2021 Participant",
       "images": {
         "front": "IMG_6426.png",
         "back": "IMG_6427.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2021-11-15",
       "organization": ["unknown"],
       "tags": ["artifact"],
       "id": "37"
     },
     {
-      "title": "Artifact 60",
+      "title": "TAMU Datathon 2020 Volunteer",
       "images": {
         "front": "IMG_6428.png",
         "back": "IMG_6429.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2020-11-15",
       "organization": ["unknown"],
       "tags": ["artifact"],
       "id": "38"
@@ -583,14 +583,14 @@
       "id": "55"
     },
     {
-      "title": "Artifact 81",
+      "title": "Amazon DEX",
       "images": {
         "front": "IMG_6453.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2021-08-15",
+      "organization": ["Amazon"],
+      "tags": ["amazon", "company", "internship"],
       "id": "56"
     },
     {
