@@ -176,27 +176,27 @@
       "id": "15"
     },
     {
-      "title": "Artifact 23",
+      "title": "TAMUhack 2023",
       "images": {
         "front": "IMG_6390.png",
         "back": "IMG_6391.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2023-01-30",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "16"
     },
     {
-      "title": "Artifact 25",
+      "title": "TAMUhack 2022",
       "images": {
         "front": "IMG_6392.png",
         "back": "IMG_6393.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2022-01-30",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "17"
     },
     {
@@ -629,27 +629,27 @@
       "id": "61"
     },
     {
-      "title": "Artifact 87",
+      "title": "TAMUhack 2019",
       "images": {
         "front": "IMG_6474.png",
         "back": "IMG_6475.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Bella & Canvas",
+      "dateObtained": "2019-01-30",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "62"
     },
     {
-      "title": "Artifact 89",
+      "title": "TAMUhack 2021",
       "images": {
         "front": "IMG_6478.png",
         "back": "IMG_6479.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Gildan",
+      "dateObtained": "2021-01-30",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"],
       "id": "64"
     },
     {
@@ -664,15 +664,15 @@
       "id": "66"
     },
     {
-      "title": "Artifact 92",
+      "title": "Facebook Ride to Work 2019",
       "images": {
         "front": "IMG_6488.png",
         "back": "IMG_6489.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-06-15",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship", "facebook"],
       "id": "67"
     },
     {
