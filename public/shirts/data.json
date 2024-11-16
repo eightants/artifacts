@@ -257,15 +257,15 @@
       "id": "22"
     },
     {
-      "title": "Artifact 34",
+      "title": "Tartan Hacks 2024",
       "images": {
         "front": "IMG_6401.png",
         "back": "IMG_6402.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2024-01-15",
+      "organization": ["Tartan Hacks"],
+      "tags": ["college", "hackathon", "cmu"],
       "id": "23"
     },
     {
@@ -292,37 +292,37 @@
       "id": "25"
     },
     {
-      "title": "Artifact 39",
+      "title": "MLH Custom",
       "images": {
         "front": "IMG_6406.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "brand": "Stickermule",
+      "dateObtained": "2022-03-15",
+      "organization": ["MLH"],
+      "tags": ["mlh", "gift"],
       "id": "26"
     },
     {
-      "title": "Artifact 40",
+      "title": "Paycom",
       "images": {
         "front": "IMG_6407.png"
       },
       "brand": "Unknown",
       "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["Paycom"],
+      "tags": ["paycom", "company"],
       "id": "27"
     },
     {
-      "title": "Artifact 41",
+      "title": "The Junction",
       "images": {
         "front": "IMG_6408.png",
         "back": "IMG_6409.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2019-11-15",
+      "organization": ["The Junction"],
+      "tags": ["college", "apartment"],
       "id": "28"
     },
     {
@@ -338,50 +338,50 @@
       "id": "29"
     },
     {
-      "title": "Artifact 45",
+      "title": "SF Hacks 2020",
       "images": {
         "front": "IMG_6412.png",
         "back": "IMG_6413.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-05-15",
+      "organization": ["SF Hacks"],
+      "tags": ["hackathon"],
       "id": "30"
     },
     {
-      "title": "Artifact 47",
+      "title": "The Stack",
       "images": {
         "front": "IMG_6414.png",
         "back": "IMG_6416.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2019-11-15",
+      "organization": ["The Stack"],
+      "tags": ["college", "apartment"],
       "id": "31"
     },
     {
-      "title": "Artifact 49",
+      "title": "American Hacker 1",
       "images": {
         "front": "IMG_6417.png",
         "back": "IMG_6418.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2019-01-15",
+      "organization": ["American Airlines"],
+      "tags": ["company", "hackathon", "tamu", "college"],
       "id": "32"
     },
     {
-      "title": "Artifact 51",
+      "title": "American Hacker 2",
       "images": {
         "front": "IMG_6419.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-01-15",
+      "organization": ["American Airlines"],
+      "tags": ["company", "hackathon", "tamu", "college"],
       "id": "33"
     },
     {
@@ -501,15 +501,15 @@
       "id": "44"
     },
     {
-      "title": "Artifact 69",
+      "title": "Palantir Expand the Perimeter",
       "images": {
         "front": "IMG_6439.png",
         "back": "IMG_6440.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-07-17",
+      "organization": ["palantir"],
+      "tags": ["palantir", "hackathon", "company", "internship"],
       "id": "45"
     },
     {
@@ -594,15 +594,15 @@
       "id": "56"
     },
     {
-      "title": "Artifact 82",
+      "title": "Palantir Sapling",
       "images": {
         "front": "IMG_6454.png",
         "back": "IMG_6455.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "dateObtained": "2022-07-15",
+      "organization": ["palantir"],
+      "tags": ["palantir", "company", "internship"],
       "id": "57"
     },
     {
