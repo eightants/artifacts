@@ -53,8 +53,8 @@
       },
       "brand": "Unknown",
       "dateObtained": "2023-01-12",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["MLH"],
+      "tags": ["mlh", "hackathon"],
       "id": "5"
     },
     {
@@ -229,18 +229,18 @@
       },
       "brand": "Unknown",
       "dateObtained": "2020-04-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["TAMU"],
+      "tags": ["tamu", "college"],
       "id": "20"
     },
     {
-      "title": "Artifact 31",
+      "title": "Aggie Spirit",
       "images": {
         "front": "IMG_6398.png",
         "back": "IMG_6399.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-15",
+      "dateObtained": "2020-11-15",
       "organization": ["TAMU"],
       "tags": ["tamu", "college"],
       "id": "21"
@@ -428,8 +428,8 @@
       },
       "brand": "Unknown",
       "dateObtained": "2021-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["TAMU Datathon"],
+      "tags": ["tamu", "datathon", "college", "hackathon"],
       "id": "37"
     },
     {
@@ -440,8 +440,8 @@
       },
       "brand": "Unknown",
       "dateObtained": "2020-11-15",
-      "organization": ["unknown"],
-      "tags": ["artifact"],
+      "organization": ["TAMU Datathon"],
+      "tags": ["tamu", "datathon", "college", "hackathon"],
       "id": "38"
     },
     {
