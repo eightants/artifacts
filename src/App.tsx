@@ -51,7 +51,7 @@ function App() {
       }}
     >
       <div
-        className={`min-h-screen ${
+        className={`min-h-screen px-4 ${
           mounted && isDark ? "darkMode" : "lightMode"
         }`}
       >

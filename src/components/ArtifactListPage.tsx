@@ -53,7 +53,7 @@ export function ArtifactListPage({ artifactName, description }: Props) {
         isDark ? "dark" : ""
       } mt-12 mb-6 relative w-full max-w-[1000px] mx-auto`}
     >
-      <div className="mb-6 lg:mb-[80px] flex justify-between items-start">
+      <div className="mb-6 lg:mb-[80px] flex flex-col lg:flex-row justify-between items-start">
         <div className="flex items-start">
           <h1 className="text-4xl lg:text-[100px] font-medium">SHIRTS</h1>
           <div>{products.length}</div>

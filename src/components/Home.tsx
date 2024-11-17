@@ -11,7 +11,7 @@ export function Home() {
     >
       <div className="flex flex-col gap-8">
         <div className="w-full text-center max-w-[600px] mx-auto">
-          <h1 className="text-5xl lg:text-[100px] font-semibold uppercase mb-2">
+          <h1 className="text-4xl lg:text-[100px] font-semibold uppercase">
             Artifacts
           </h1>
           <p>

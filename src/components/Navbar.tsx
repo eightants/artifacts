@@ -11,8 +11,8 @@ export function Navbar({
   items: { label: string; value: string }[];
 }) {
   return (
-    <nav className="flex items-center justify-between p-4 px-8 w-full">
-      <a href="/" className="uppercase cursor-pointer">
+    <nav className="flex items-center justify-between p-4 px-4 w-full">
+      <a href="/" className="uppercase cursor-pointer no-underline">
         Artifacts
       </a>
 
@@ -20,7 +20,7 @@ export function Navbar({
         <DropdownMenuTrigger asChild>
           <div className="uppercase cursor-pointer">ITEMS</div>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-80 bg-primary text-secondaryText mt-2 mx-4">
+        <DropdownMenuContent className="w-60 lg:w-80 bg-primary text-secondaryText mt-2 mx-4">
           {items.map((item) => (
             <DropdownMenuItem
               className="uppercase cursor-pointer text-xl"

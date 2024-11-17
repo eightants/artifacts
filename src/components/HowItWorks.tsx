@@ -22,7 +22,7 @@ export function HowItWorks() {
             tshirts from college.
           </div>
 
-          <ol className="mt-4 list-decimal text-left">
+          <ol className="ml-4 mt-4 list-decimal text-left">
             <li>
               In /public, create a new folder /shirts with two subfolders:
               /originals and /output
