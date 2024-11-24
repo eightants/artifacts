@@ -696,6 +696,18 @@
       "organization": ["Capital One"],
       "tags": ["hackathon", "college", "capital one"],
       "id": "70"
+    },
+    {
+      "id": "61",
+      "title": "Ramp NYC'22",
+      "images": {
+        "front": "IMG_6515.png",
+        "back": "IMG_6516.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2023-09-24",
+      "organization": ["Ramp"],
+      "tags": ["ramp"]
     }
   ]
 }
