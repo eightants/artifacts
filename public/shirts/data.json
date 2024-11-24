@@ -257,13 +257,13 @@
       "id": "22"
     },
     {
-      "title": "Tartan Hacks 2024",
+      "title": "Tartan Hacks 2023",
       "images": {
         "front": "IMG_6401.png",
         "back": "IMG_6402.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-01-15",
+      "dateObtained": "2023-01-15",
       "organization": ["Tartan Hacks"],
       "tags": ["college", "hackathon", "cmu"],
       "id": "23"
@@ -653,7 +653,7 @@
       "id": "64"
     },
     {
-      "title": "Aggie Coding Club",
+      "title": "Aggie Coding Club Officer",
       "images": {
         "front": "IMG_6487.png"
       },
@@ -661,7 +661,8 @@
       "dateObtained": "2021-11-15",
       "organization": ["acc"],
       "tags": ["tamu", "college", "acc"],
-      "id": "66"
+      "id": "66",
+      "type": "hoodie"
     },
     {
       "title": "Facebook Ride to Work 2019",
@@ -707,117 +708,78 @@
       "brand": "Unknown",
       "dateObtained": "2023-09-24",
       "organization": ["Ramp"],
-      "tags": ["ramp"]
+      "tags": ["ramp", "company"]
     },
     {
       "id": "62",
-      "title": "Artifact 62",
+      "title": "Ramp Hacks 2024",
       "images": {
-        "front": "IMG_6517.png"
+        "front": "IMG_6517.png",
+        "back": "IMG_6519.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "id": "63",
-      "title": "Artifact 63",
-      "images": {
-        "front": "IMG_6519.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "brand": "LA Apparel",
+      "dateObtained": "2024-07-24",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "company", "hackathon"]
     },
     {
       "id": "64",
-      "title": "Artifact 64",
+      "title": "Confused Cat",
       "images": {
         "front": "IMG_6520.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-07-25",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "novelty"]
     },
     {
       "id": "65",
-      "title": "Artifact 65",
+      "title": "Aggie Coding Club",
       "images": {
         "front": "IMG_6521.png"
       },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "brand": "Comfort Colors",
+      "dateObtained": "2021-10-24",
+      "organization": ["acc"],
+      "tags": ["acc", "college"]
     },
     {
       "id": "66",
-      "title": "Artifact 66",
+      "title": "Mt Joy Coordinates",
       "images": {
-        "front": "IMG_6523.png"
+        "front": "IMG_6523.png",
+        "back": "IMG_6524.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "id": "67",
-      "title": "Artifact 67",
-      "images": {
-        "front": "IMG_6524.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2021-10-20",
+      "organization": ["Mt Joy"],
+      "tags": ["music", "band", "mt joy"]
     },
     {
       "id": "68",
-      "title": "Artifact 68",
+      "title": "Palantir Intern Class of 2022",
       "images": {
-        "front": "IMG_6525.png"
+        "front": "IMG_6525.png",
+        "back": "IMG_6526.png"
       },
-      "brand": "Unknown",
+      "brand": "Bella & Canvas",
       "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "id": "69",
-      "title": "Artifact 69",
-      "images": {
-        "front": "IMG_6526.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "organization": ["palantir"],
+      "tags": ["palantir", "intern", "company"]
     },
     {
       "id": "70",
-      "title": "Artifact 70",
+      "title": "Ramp 2023 Text",
       "images": {
-        "front": "IMG_6527.png"
+        "front": "IMG_6527.png",
+        "back": "IMG_6528.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
-    },
-    {
-      "id": "71",
-      "title": "Artifact 71",
-      "images": {
-        "front": "IMG_6528.png"
-      },
-      "brand": "Unknown",
-      "dateObtained": "2024-11-24",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-03-24",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "company"],
+      "type": "sweatshirt"
     }
   ]
 }
