@@ -708,6 +708,116 @@
       "dateObtained": "2023-09-24",
       "organization": ["Ramp"],
       "tags": ["ramp"]
+    },
+    {
+      "id": "62",
+      "title": "Artifact 62",
+      "images": {
+        "front": "IMG_6517.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "63",
+      "title": "Artifact 63",
+      "images": {
+        "front": "IMG_6519.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "64",
+      "title": "Artifact 64",
+      "images": {
+        "front": "IMG_6520.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "65",
+      "title": "Artifact 65",
+      "images": {
+        "front": "IMG_6521.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "66",
+      "title": "Artifact 66",
+      "images": {
+        "front": "IMG_6523.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "67",
+      "title": "Artifact 67",
+      "images": {
+        "front": "IMG_6524.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "68",
+      "title": "Artifact 68",
+      "images": {
+        "front": "IMG_6525.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "69",
+      "title": "Artifact 69",
+      "images": {
+        "front": "IMG_6526.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "70",
+      "title": "Artifact 70",
+      "images": {
+        "front": "IMG_6527.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "71",
+      "title": "Artifact 71",
+      "images": {
+        "front": "IMG_6528.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-24",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
     }
   ]
 }

@@ -13,7 +13,7 @@ def resize_image(file_path, max_size=(1920, 1080)):
         img.save(file_path, optimize=True)
 
 
-def process_images(directory, size_limit=3 * 1024 * 1024, max_size=(1920, 1080)):
+def process_images(directory, size_limit=2 * 1024 * 1024, max_size=(1920, 1080)):
     """
     Process PNG images in a directory, resizing them if they exceed the size limit.
     :param directory: Path to the directory containing PNG images
