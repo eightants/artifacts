@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "Artifact 2",
+      "images": {
+        "front": "IMG_6529-0.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-26",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "2",
+      "title": "Artifact 3",
+      "images": {
+        "front": "IMG_6529-1.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-26",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "3",
+      "title": "Artifact 3",
+      "images": {
+        "front": "IMG_6529-2.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-26",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "4",
+      "title": "Artifact 4",
+      "images": {
+        "front": "IMG_6529-3.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-26",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "5",
+      "title": "Artifact 5",
+      "images": {
+        "front": "IMG_6529-4.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-26",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    }
+  ]
+}

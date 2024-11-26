@@ -20,6 +20,10 @@ const artifactNames: ArtifactItem[] = [
     description:
       "College was the golden age of free shirts. I collected shirts from hackathons, internships, and events. Hackathons were especially rewarding, while internships and career fairs often yielded unique ones. By the end, I had a closet full of shirts, each representing a memorable experience. Even now, the collection is still growing.",
   },
+  {
+    path: "stickers",
+    description: "",
+  },
 ];
 
 function App() {

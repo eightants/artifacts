@@ -1,7 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const artifactName = "shirts";
+// CHANGE THIS TO THE NAME OF THE ARTIFACT
+const artifactName = "stickers";
 
 // Path to the output folder
 const outputDir = path.join(__dirname, "public", artifactName, "output");
@@ -47,7 +48,7 @@ fs.readFile(dataFilePath, "utf8", (err, dataContent) => {
     const newEntries = imageFiles
       .filter((file) => !existingImages.has(file))
       .map((file, index) => ({
-        id: `${existingData[existingData.length - 1].index + index + 1}`,
+        id: `${Number(existingData[existingData.length - 1].id) + index + 1}`,
         title: `Artifact ${existingData.length + index + 1}`,
         images: {
           front: file,
