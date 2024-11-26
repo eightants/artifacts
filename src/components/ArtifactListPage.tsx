@@ -55,7 +55,9 @@ export function ArtifactListPage({ artifactName, description }: Props) {
     >
       <div className="mb-6 lg:mb-[80px] flex flex-col lg:flex-row justify-between items-start">
         <div className="flex items-start">
-          <h1 className="text-4xl lg:text-[100px] font-medium">SHIRTS</h1>
+          <h1 className="text-4xl lg:text-[100px] font-medium uppercase">
+            {artifactName}
+          </h1>
           <div>{products.length}</div>
         </div>
 

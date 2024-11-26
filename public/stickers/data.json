@@ -7,9 +7,9 @@
         "front": "IMG_6529-0.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-26",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-11-26",
+      "organization": ["Figma"],
+      "tags": ["figma", "hackathon", "company"]
     },
     {
       "id": "2",
@@ -18,9 +18,9 @@
         "front": "IMG_6529-1.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-26",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-11-26",
+      "organization": ["Figma"],
+      "tags": ["figma", "hackathon", "company"]
     },
     {
       "id": "3",
@@ -29,9 +29,9 @@
         "front": "IMG_6529-2.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-26",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-11-26",
+      "organization": ["Figma"],
+      "tags": ["figma", "hackathon", "company"]
     },
     {
       "id": "4",
@@ -40,9 +40,9 @@
         "front": "IMG_6529-3.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-26",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-11-26",
+      "organization": ["Figma"],
+      "tags": ["figma", "hackathon", "company"]
     },
     {
       "id": "5",
@@ -51,9 +51,9 @@
         "front": "IMG_6529-4.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-26",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-11-26",
+      "organization": ["Figma"],
+      "tags": ["figma", "hackathon", "company"]
     }
   ]
 }
