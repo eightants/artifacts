@@ -1,4 +1,5 @@
 {
+  "rowSize": 4,
   "data": [
     {
       "id": "1",
@@ -54,6 +55,578 @@
       "dateObtained": "2022-11-26",
       "organization": ["Figma"],
       "tags": ["figma", "hackathon", "company"]
+    },
+    {
+      "id": "6",
+      "title": "Artifact 6",
+      "images": {
+        "front": "IMG_6537-0.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "7",
+      "title": "Artifact 7",
+      "images": {
+        "front": "IMG_6537-1.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "8",
+      "title": "Artifact 8",
+      "images": {
+        "front": "IMG_6537-16.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "9",
+      "title": "Artifact 9",
+      "images": {
+        "front": "IMG_6537-2.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "10",
+      "title": "Artifact 10",
+      "images": {
+        "front": "IMG_6537-3.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "11",
+      "title": "Artifact 11",
+      "images": {
+        "front": "IMG_6537-4.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "12",
+      "title": "Artifact 12",
+      "images": {
+        "front": "IMG_6537-5.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "13",
+      "title": "Artifact 13",
+      "images": {
+        "front": "IMG_6537-6.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "14",
+      "title": "Artifact 14",
+      "images": {
+        "front": "IMG_6537-8.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "15",
+      "title": "Artifact 15",
+      "images": {
+        "front": "IMG_6538-0.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "16",
+      "title": "Artifact 16",
+      "images": {
+        "front": "IMG_6538-1.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "17",
+      "title": "Artifact 17",
+      "images": {
+        "front": "IMG_6538-11.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "18",
+      "title": "Artifact 18",
+      "images": {
+        "front": "IMG_6538-2.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "19",
+      "title": "Artifact 19",
+      "images": {
+        "front": "IMG_6538-3.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "20",
+      "title": "Artifact 20",
+      "images": {
+        "front": "IMG_6538-4.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "21",
+      "title": "Artifact 21",
+      "images": {
+        "front": "IMG_6538-5.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "22",
+      "title": "Artifact 22",
+      "images": {
+        "front": "IMG_6538-6.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "23",
+      "title": "Artifact 23",
+      "images": {
+        "front": "IMG_6538-7.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "24",
+      "title": "Artifact 24",
+      "images": {
+        "front": "IMG_6539-0.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "25",
+      "title": "Artifact 25",
+      "images": {
+        "front": "IMG_6539-1.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "26",
+      "title": "Artifact 26",
+      "images": {
+        "front": "IMG_6539-10.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "27",
+      "title": "Artifact 27",
+      "images": {
+        "front": "IMG_6539-11.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "28",
+      "title": "Artifact 28",
+      "images": {
+        "front": "IMG_6539-12.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "29",
+      "title": "Artifact 29",
+      "images": {
+        "front": "IMG_6539-13.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "30",
+      "title": "Artifact 30",
+      "images": {
+        "front": "IMG_6539-14.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "31",
+      "title": "Artifact 31",
+      "images": {
+        "front": "IMG_6539-15.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "32",
+      "title": "Artifact 32",
+      "images": {
+        "front": "IMG_6539-16.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "33",
+      "title": "Artifact 33",
+      "images": {
+        "front": "IMG_6539-17.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "34",
+      "title": "Artifact 34",
+      "images": {
+        "front": "IMG_6539-18.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "35",
+      "title": "Artifact 35",
+      "images": {
+        "front": "IMG_6539-19.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "36",
+      "title": "Artifact 36",
+      "images": {
+        "front": "IMG_6539-2.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "37",
+      "title": "Artifact 37",
+      "images": {
+        "front": "IMG_6539-21.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "38",
+      "title": "Artifact 38",
+      "images": {
+        "front": "IMG_6539-22.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "39",
+      "title": "Artifact 39",
+      "images": {
+        "front": "IMG_6539-24.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "40",
+      "title": "Artifact 40",
+      "images": {
+        "front": "IMG_6539-26.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "41",
+      "title": "Artifact 41",
+      "images": {
+        "front": "IMG_6539-3.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "42",
+      "title": "Artifact 42",
+      "images": {
+        "front": "IMG_6539-4.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "43",
+      "title": "Artifact 43",
+      "images": {
+        "front": "IMG_6539-5.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "44",
+      "title": "Artifact 44",
+      "images": {
+        "front": "IMG_6539-6.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "45",
+      "title": "Artifact 45",
+      "images": {
+        "front": "IMG_6539-7.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "46",
+      "title": "Artifact 46",
+      "images": {
+        "front": "IMG_6539-8.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "47",
+      "title": "Artifact 47",
+      "images": {
+        "front": "IMG_6539-9.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "48",
+      "title": "Artifact 48",
+      "images": {
+        "front": "IMG_6540-0.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "49",
+      "title": "Artifact 49",
+      "images": {
+        "front": "IMG_6540-1.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "50",
+      "title": "Artifact 50",
+      "images": {
+        "front": "IMG_6540-10.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "51",
+      "title": "Artifact 51",
+      "images": {
+        "front": "IMG_6540-2.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "52",
+      "title": "Artifact 52",
+      "images": {
+        "front": "IMG_6540-3.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "53",
+      "title": "Artifact 53",
+      "images": {
+        "front": "IMG_6540-4.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "54",
+      "title": "Artifact 54",
+      "images": {
+        "front": "IMG_6540-5.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "55",
+      "title": "Artifact 55",
+      "images": {
+        "front": "IMG_6540-6.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "56",
+      "title": "Artifact 56",
+      "images": {
+        "front": "IMG_6540-8.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
+    },
+    {
+      "id": "57",
+      "title": "Artifact 57",
+      "images": {
+        "front": "IMG_6540-9.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2024-11-29",
+      "organization": ["unknown"],
+      "tags": ["artifact"]
     }
   ]
 }

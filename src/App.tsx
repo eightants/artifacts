@@ -12,6 +12,7 @@ import { HowItWorks } from "src/components/HowItWorks";
 type ArtifactItem = {
   path: string;
   description?: string;
+  size?: number;
 };
 
 const artifactNames: ArtifactItem[] = [
@@ -23,6 +24,7 @@ const artifactNames: ArtifactItem[] = [
   {
     path: "stickers",
     description: "",
+    size: 4,
   },
 ];
 
@@ -70,7 +72,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
 
-            {artifactNames.map(({ path, description }) => (
+            {artifactNames.map(({ path, description, size = 3 }) => (
               <>
                 <Route
                   key={path}
@@ -79,6 +81,7 @@ function App() {
                     <ArtifactListPage
                       artifactName={path}
                       description={description}
+                      size={size}
                     />
                   }
                 />

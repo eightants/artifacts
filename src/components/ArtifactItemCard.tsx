@@ -3,11 +3,16 @@ import { Artifact } from "../types";
 type Props = {
   product: Artifact;
   artifactName: string;
+  size?: number;
 };
 
-export function ArtifactItemCard({ product, artifactName }: Props) {
+export function ArtifactItemCard({ product, artifactName, size = 3 }: Props) {
   return (
-    <div className="p-1 md:basis-1/2 lg:basis-1/3 basis-full text-left">
+    <div
+      className={`p-1 md:basis-1/2 ${
+        size === 4 ? "lg:basis-1/4" : "lg:basis-1/3"
+      } basis-full text-left`}
+    >
       <div className="group block cursor-pointer rounded-xl bg-secondary border border-border p-2 lg:p-6 hover:bg-secondary transition-background duration-[0.5s] w-full h-[240px] lg:h-[280px]">
         <div className="relative h-full">
           <img
