@@ -4,9 +4,15 @@ type Props = {
   product: Artifact;
   artifactName: string;
   size?: number;
+  scale?: number;
 };
 
-export function ArtifactItemCard({ product, artifactName, size = 3 }: Props) {
+export function ArtifactItemCard({
+  product,
+  artifactName,
+  size = 3,
+  scale = 1,
+}: Props) {
   return (
     <div
       className={`p-1 md:basis-1/2 ${
@@ -21,6 +27,7 @@ export function ArtifactItemCard({ product, artifactName, size = 3 }: Props) {
             className={`w-full h-full object-contain ${
               product.images.back && "group-hover:hidden"
             }`}
+            style={{ transform: `scale(${scale})` }}
           />
           {product.images.back && (
             <img

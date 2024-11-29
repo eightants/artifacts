@@ -1,5 +1,4 @@
 {
-  "rowSize": 4,
   "data": [
     {
       "id": "1",
@@ -8,7 +7,7 @@
         "front": "IMG_6529-0.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2022-11-26",
+      "dateObtained": "2020-11-26",
       "organization": ["Figma"],
       "tags": ["figma", "hackathon", "company"]
     },
@@ -19,7 +18,7 @@
         "front": "IMG_6529-1.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2022-11-26",
+      "dateObtained": "2020-11-26",
       "organization": ["Figma"],
       "tags": ["figma", "hackathon", "company"]
     },
@@ -30,7 +29,7 @@
         "front": "IMG_6529-2.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2022-11-26",
+      "dateObtained": "2020-11-26",
       "organization": ["Figma"],
       "tags": ["figma", "hackathon", "company"]
     },
@@ -41,7 +40,7 @@
         "front": "IMG_6529-3.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2022-11-26",
+      "dateObtained": "2020-11-26",
       "organization": ["Figma"],
       "tags": ["figma", "hackathon", "company"]
     },
@@ -52,31 +51,31 @@
         "front": "IMG_6529-4.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2022-11-26",
+      "dateObtained": "2020-11-26",
       "organization": ["Figma"],
       "tags": ["figma", "hackathon", "company"]
     },
     {
       "id": "6",
-      "title": "Artifact 6",
+      "title": "Ramp Pokemon - Ditto",
       "images": {
         "front": "IMG_6537-0.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-06-29",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "company"]
     },
     {
       "id": "7",
-      "title": "Artifact 7",
+      "title": "Datadog",
       "images": {
         "front": "IMG_6537-1.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-07-29",
+      "organization": ["Datadog"],
+      "tags": ["datadog", "company"]
     },
     {
       "id": "8",
@@ -85,9 +84,9 @@
         "front": "IMG_6537-16.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-04-05",
+      "organization": ["Capital One"],
+      "tags": ["capitalone", "company"]
     },
     {
       "id": "9",
@@ -96,9 +95,9 @@
         "front": "IMG_6537-2.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-06-29",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "company"]
     },
     {
       "id": "10",
@@ -118,9 +117,9 @@
         "front": "IMG_6537-4.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-06-29",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "company"]
     },
     {
       "id": "12",
@@ -129,9 +128,9 @@
         "front": "IMG_6537-5.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-07-29",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "company"]
     },
     {
       "id": "13",
@@ -146,14 +145,14 @@
     },
     {
       "id": "14",
-      "title": "Artifact 14",
+      "title": "Procurement",
       "images": {
         "front": "IMG_6537-8.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2024-01-29",
+      "organization": ["Ramp"],
+      "tags": ["ramp", "company"]
     },
     {
       "id": "15",
@@ -162,9 +161,9 @@
         "front": "IMG_6538-0.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-07-29",
+      "organization": ["Palantir"],
+      "tags": ["palantir", "company", "internship", "hackathon"]
     },
     {
       "id": "16",
@@ -173,9 +172,9 @@
         "front": "IMG_6538-1.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-09-29",
+      "organization": ["Troutwood"],
+      "tags": ["troutwood", "company", "hackathon", "cmu", "college"]
     },
     {
       "id": "17",
@@ -184,31 +183,31 @@
         "front": "IMG_6538-11.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-09-29",
+      "organization": ["Troutwood"],
+      "tags": ["troutwood", "company", "hackathon", "cmu", "college"]
     },
     {
       "id": "18",
-      "title": "Artifact 18",
+      "title": "HowdyHack 2022",
       "images": {
         "front": "IMG_6538-2.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-09-20",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"]
     },
     {
       "id": "19",
-      "title": "Artifact 19",
+      "title": "Gotham",
       "images": {
         "front": "IMG_6538-3.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-07-29",
+      "organization": ["Palantir"],
+      "tags": ["palantir", "company", "internship"]
     },
     {
       "id": "20",
@@ -217,7 +216,7 @@
         "front": "IMG_6538-4.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
+      "dateObtained": "2022-09-29",
       "organization": ["unknown"],
       "tags": ["artifact"]
     },
@@ -228,9 +227,9 @@
         "front": "IMG_6538-5.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "22",
@@ -250,9 +249,9 @@
         "front": "IMG_6538-7.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "24",
@@ -333,14 +332,14 @@
     },
     {
       "id": "31",
-      "title": "Artifact 31",
+      "title": "LinkedIn Llama",
       "images": {
         "front": "IMG_6539-15.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2023-01-29",
+      "organization": ["LinkedIn"],
+      "tags": ["linkedin", "company"]
     },
     {
       "id": "32",
@@ -360,7 +359,7 @@
         "front": "IMG_6539-17.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
+      "dateObtained": "2022-09-29",
       "organization": ["unknown"],
       "tags": ["artifact"]
     },
@@ -377,14 +376,14 @@
     },
     {
       "id": "35",
-      "title": "Artifact 35",
+      "title": "HowdyHack 2021",
       "images": {
         "front": "IMG_6539-19.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-09-20",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"]
     },
     {
       "id": "36",
@@ -393,9 +392,9 @@
         "front": "IMG_6539-2.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2023-01-29",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"]
     },
     {
       "id": "37",
@@ -412,12 +411,12 @@
       "id": "38",
       "title": "Artifact 38",
       "images": {
-        "front": "IMG_6539-22.png"
+        "front": "IMG_6539-23.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "39",
@@ -426,9 +425,9 @@
         "front": "IMG_6539-24.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "40",
@@ -437,9 +436,9 @@
         "front": "IMG_6539-26.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2023-01-29",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"]
     },
     {
       "id": "41",
@@ -509,14 +508,14 @@
     },
     {
       "id": "47",
-      "title": "Artifact 47",
+      "title": "MHCI",
       "images": {
         "front": "IMG_6539-9.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-09-29",
+      "organization": ["CMU"],
+      "tags": ["cmu", "college", "department", "hcii"]
     },
     {
       "id": "48",
@@ -525,9 +524,9 @@
         "front": "IMG_6540-0.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-07-29",
+      "organization": ["Palantir"],
+      "tags": ["palantir", "company", "internship", "hackathon"]
     },
     {
       "id": "49",
@@ -542,14 +541,14 @@
     },
     {
       "id": "50",
-      "title": "Artifact 50",
+      "title": "Build awesome things",
       "images": {
         "front": "IMG_6540-10.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "51",
@@ -558,9 +557,9 @@
         "front": "IMG_6540-2.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "52",
@@ -602,9 +601,9 @@
         "front": "IMG_6540-6.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "56",
@@ -613,9 +612,9 @@
         "front": "IMG_6540-8.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
     },
     {
       "id": "57",
@@ -624,9 +623,20 @@
         "front": "IMG_6540-9.png"
       },
       "brand": "Unknown",
-      "dateObtained": "2024-11-29",
-      "organization": ["unknown"],
-      "tags": ["artifact"]
+      "dateObtained": "2022-05-29",
+      "organization": ["Meta"],
+      "tags": ["meta", "company", "internship"]
+    },
+    {
+      "id": "58",
+      "title": "Artifact 58",
+      "images": {
+        "front": "IMG_6539-22.png"
+      },
+      "brand": "Unknown",
+      "dateObtained": "2023-01-29",
+      "organization": ["TAMUhack"],
+      "tags": ["tamuhack", "tamu", "college", "hackathon"]
     }
   ]
 }

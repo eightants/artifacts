@@ -13,6 +13,7 @@ type ArtifactItem = {
   path: string;
   description?: string;
   size?: number;
+  scale?: number;
 };
 
 const artifactNames: ArtifactItem[] = [
@@ -25,6 +26,7 @@ const artifactNames: ArtifactItem[] = [
     path: "stickers",
     description: "",
     size: 4,
+    scale: 0.7,
   },
 ];
 
@@ -72,7 +74,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
 
-            {artifactNames.map(({ path, description, size = 3 }) => (
+            {artifactNames.map(({ path, description, size = 3, scale }) => (
               <>
                 <Route
                   key={path}
@@ -82,6 +84,7 @@ function App() {
                       artifactName={path}
                       description={description}
                       size={size}
+                      scale={scale}
                     />
                   }
                 />

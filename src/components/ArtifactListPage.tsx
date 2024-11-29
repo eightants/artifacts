@@ -9,9 +9,15 @@ type Props = {
   artifactName: string;
   description?: string;
   size?: number;
+  scale?: number;
 };
 
-export function ArtifactListPage({ artifactName, description, size }: Props) {
+export function ArtifactListPage({
+  artifactName,
+  description,
+  size,
+  scale,
+}: Props) {
   const { isDark } = useThemeContext();
   const [products, setProducts] = useState<Artifact[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Artifact[]>([]);
@@ -111,6 +117,7 @@ export function ArtifactListPage({ artifactName, description, size }: Props) {
             product={product}
             artifactName={artifactName}
             size={size}
+            scale={scale}
           />
         ))}
       </div>
