@@ -26,7 +26,7 @@ const artifactNames: ArtifactItem[] = [
     path: "stickers",
     description: "",
     size: 4,
-    scale: 0.7,
+    scale: 0.65,
   },
 ];
 
