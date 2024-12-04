@@ -22,12 +22,15 @@ export function ArtifactItemCard({
       <div className="group block cursor-pointer rounded-xl bg-secondary border border-border p-2 lg:p-6 hover:bg-secondary transition-background duration-[0.5s] w-full h-[240px] lg:h-[280px]">
         <div className="relative h-full">
           <img
+            loading="lazy"
             src={`/${artifactName}/output/${product.images.front}`}
             alt={product.title}
             className={`w-full h-full object-contain ${
               product.images.back && "group-hover:hidden"
             }`}
             style={{ transform: `scale(${scale})` }}
+            height="100%"
+            width="auto"
           />
           {product.images.back && (
             <img
