@@ -31,6 +31,7 @@ export function ArtifactItemCard({
           />
           {product.images.back && (
             <img
+              loading="lazy"
               src={`/${artifactName}/output/${product.images.back}`}
               alt={`${product.title} back`}
               className="w-full h-full object-contain absolute top-0 left-0 group-hover:block hidden"
