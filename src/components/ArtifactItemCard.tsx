@@ -35,6 +35,8 @@ export function ArtifactItemCard({
               src={`/${artifactName}/output/${product.images.back}`}
               alt={`${product.title} back`}
               className="w-full h-full object-contain absolute top-0 left-0 group-hover:block hidden"
+              height="100%"
+              width="auto"
             />
           )}
         </div>
