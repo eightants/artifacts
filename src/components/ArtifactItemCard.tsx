@@ -7,7 +7,7 @@ type Props = {
   scale?: number;
 };
 
-export function ArtifactItemCard({
+export default function ArtifactItemCard({
   product,
   artifactName,
   size = 3,

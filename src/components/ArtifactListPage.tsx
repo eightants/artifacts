@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
-import { ArtifactItemCard } from "src/components/ArtifactItemCard";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { Dropdown } from "src/components/Dropdown";
 import { useThemeContext } from "src/components/ThemeContext";
 import "src/index.css";
 import { Artifact } from "src/types";
+
+const ArtifactItemCard = lazy(() => import("src/components/ArtifactItemCard"));
 
 type Props = {
   artifactName: string;
@@ -112,13 +113,29 @@ export function ArtifactListPage({
 
       <div className="flex flex-wrap -mx-2">
         {filteredProducts.map((product, idx) => (
-          <ArtifactItemCard
+          <Suspense
             key={idx}
-            product={product}
-            artifactName={artifactName}
-            size={size}
-            scale={scale}
-          />
+            fallback={
+              <div
+                className={`p-1 md:basis-1/2 ${
+                  size === 4 ? "lg:basis-1/4" : "lg:basis-1/3"
+                } basis-full text-left`}
+              >
+                <div className="animate-pulse w-full h-[280px] lg:h-[320px] flex flex-col gap-2">
+                  <div className="h-6 bg-primaryText opacity-10 rounded-lg"></div>
+                  <div className="h-6 bg-primaryText opacity-10 rounded-lg w-[60%]"></div>
+                  <div className="h-6 bg-primaryText opacity-10 rounded-lg"></div>
+                </div>
+              </div>
+            }
+          >
+            <ArtifactItemCard
+              product={product}
+              artifactName={artifactName}
+              size={size}
+              scale={scale}
+            />
+          </Suspense>
         ))}
       </div>
     </div>
