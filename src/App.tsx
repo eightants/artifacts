@@ -14,6 +14,7 @@ type ArtifactItem = {
   description?: string;
   size?: number;
   scale?: number;
+  explorer?: boolean;
 };
 
 const artifactNames: ArtifactItem[] = [
@@ -27,6 +28,7 @@ const artifactNames: ArtifactItem[] = [
     description: "",
     size: 4,
     scale: 0.65,
+    explorer: true,
   },
 ];
 
@@ -74,27 +76,30 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/how-it-works" element={<HowItWorks />} />
 
-            {artifactNames.map(({ path, description, size = 3, scale }) => (
-              <>
-                <Route
-                  key={path}
-                  path={`/${path}`}
-                  element={
-                    <ArtifactListPage
-                      artifactName={path}
-                      description={description}
-                      size={size}
-                      scale={scale}
-                    />
-                  }
-                />
-                <Route
-                  key={path}
-                  path={`/${path}/:id`}
-                  element={<ArtifactItemPage artifactName={path} />}
-                />
-              </>
-            ))}
+            {artifactNames.map(
+              ({ path, description, size = 3, scale, explorer }) => (
+                <>
+                  <Route
+                    key={path}
+                    path={`/${path}`}
+                    element={
+                      <ArtifactListPage
+                        artifactName={path}
+                        description={description}
+                        size={size}
+                        scale={scale}
+                        explorer={explorer}
+                      />
+                    }
+                  />
+                  <Route
+                    key={path}
+                    path={`/${path}/:id`}
+                    element={<ArtifactItemPage artifactName={path} />}
+                  />
+                </>
+              )
+            )}
           </Routes>
         </Router>
       </div>

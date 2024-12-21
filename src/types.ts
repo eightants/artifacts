@@ -1,4 +1,5 @@
 export type Artifact = {
+  id: string;
   title: string;
   images: {
     front: string; // path to image

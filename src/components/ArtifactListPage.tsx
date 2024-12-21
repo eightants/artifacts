@@ -1,4 +1,5 @@
-import { lazy, Suspense, useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useState, useMemo } from "react";
+import { ArtifactCanvasView } from "src/components/ArtifactCanvasView";
 import { Dropdown } from "src/components/Dropdown";
 import { useThemeContext } from "src/components/ThemeContext";
 import "src/index.css";
@@ -11,6 +12,7 @@ type Props = {
   description?: string;
   size?: number;
   scale?: number;
+  explorer?: boolean;
 };
 
 export function ArtifactListPage({
@@ -18,12 +20,26 @@ export function ArtifactListPage({
   description,
   size,
   scale,
+  explorer,
 }: Props) {
   const { isDark } = useThemeContext();
   const [products, setProducts] = useState<Artifact[]>([]);
+  const [view, setView] = useState("grid");
   const [filteredProducts, setFilteredProducts] = useState<Artifact[]>([]);
   const [sortOrder, setSortOrder] = useState("desc");
   const [sortBy, setSortBy] = useState("dateObtained");
+  const [selectedTag, setSelectedTag] = useState<string>("all");
+
+  // Get unique tags from all products
+  const allTags = useMemo(() => {
+    const tags = products.reduce((acc: string[], product) => {
+      if (product.tags) {
+        return [...acc, ...product.tags];
+      }
+      return acc;
+    }, []);
+    return ["all", ...Array.from(new Set(tags))];
+  }, [products]);
 
   useEffect(() => {
     // Fetch data from data.json
@@ -34,26 +50,34 @@ export function ArtifactListPage({
   }, [artifactName]);
 
   useEffect(() => {
-    const productArray = [...products];
+    let filteredArray = [...products];
 
+    // First apply tag filter if not "all"
+    if (selectedTag !== "all") {
+      filteredArray = filteredArray.filter((product) =>
+        product.tags?.includes(selectedTag)
+      );
+    }
+
+    // Then apply sorting
     if (sortBy === "dateObtained") {
       setFilteredProducts(
         sortOrder === "asc"
-          ? productArray.sort((a, b) =>
+          ? filteredArray.sort((a, b) =>
               a.dateObtained.localeCompare(b.dateObtained)
             )
-          : productArray.sort((a, b) =>
+          : filteredArray.sort((a, b) =>
               b.dateObtained.localeCompare(a.dateObtained)
             )
       );
     } else if (sortBy === "name") {
       setFilteredProducts(
         sortOrder === "asc"
-          ? productArray.sort((a, b) => a.title.localeCompare(b.title))
-          : productArray.sort((a, b) => b.title.localeCompare(a.title))
+          ? filteredArray.sort((a, b) => a.title.localeCompare(b.title))
+          : filteredArray.sort((a, b) => b.title.localeCompare(a.title))
       );
     }
-  }, [products, sortBy, sortOrder]);
+  }, [products, sortBy, sortOrder, selectedTag]);
 
   return (
     <div
@@ -72,72 +96,147 @@ export function ArtifactListPage({
         <div className="w-full lg:w-1/2">{description}</div>
       </div>
 
-      <div className="py-4 flex gap-2">
-        <Dropdown
-          defaultValue="year"
-          label=""
-          prefix="Sort by"
-          options={[
-            {
-              label: "Year",
-              value: "dateObtained",
-            },
-            {
-              label: "Name",
-              value: "name",
-            },
-          ]}
-          onChange={(value) => {
-            setSortBy(value);
-          }}
-        />
+      <div className="flex justify-between">
+        <div className="py-4 flex gap-2">
+          <Dropdown
+            defaultValue="year"
+            label=""
+            prefix="Sort by"
+            options={[
+              {
+                label: "Year",
+                value: "dateObtained",
+              },
+              {
+                label: "Name",
+                value: "name",
+              },
+            ]}
+            onChange={(value) => {
+              setSortBy(value);
+            }}
+          />
 
-        <Dropdown
-          defaultValue="desc"
-          label=""
-          options={[
-            {
-              label: "Ascending",
-              value: "asc",
-            },
-            {
-              label: "Descending",
-              value: "desc",
-            },
-          ]}
-          onChange={(value) => {
-            setSortOrder(value);
-          }}
-        />
-      </div>
+          <Dropdown
+            defaultValue="desc"
+            label=""
+            options={[
+              {
+                label: "Ascending",
+                value: "asc",
+              },
+              {
+                label: "Descending",
+                value: "desc",
+              },
+            ]}
+            onChange={(value) => {
+              setSortOrder(value);
+            }}
+          />
 
-      <div className="flex flex-wrap -mx-2">
-        {filteredProducts.map((product, idx) => (
-          <Suspense
-            key={idx}
-            fallback={
-              <div
-                className={`p-1 md:basis-1/2 ${
-                  size === 4 ? "lg:basis-1/4" : "lg:basis-1/3"
-                } basis-full text-left`}
+          <Dropdown
+            defaultValue="all"
+            label=""
+            prefix="Filter by"
+            options={allTags.map((tag) => ({
+              label: tag.charAt(0).toUpperCase() + tag.slice(1),
+              value: tag,
+            }))}
+            onChange={(value) => {
+              setSelectedTag(value);
+            }}
+          />
+        </div>
+
+        {explorer && (
+          <div className="py-4 flex gap-2">
+            <button
+              className={`p-2 border rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center gap-2 ${
+                view === "grid" ? "bg-gray-100 dark:bg-gray-800" : ""
+              }`}
+              onClick={() => setView("grid")}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
-                <div className="animate-pulse w-full h-[280px] lg:h-[320px] flex flex-col gap-2">
-                  <div className="h-6 bg-primaryText opacity-10 rounded-lg"></div>
-                  <div className="h-6 bg-primaryText opacity-10 rounded-lg w-[60%]"></div>
-                  <div className="h-6 bg-primaryText opacity-10 rounded-lg"></div>
-                </div>
-              </div>
-            }
-          >
-            <ArtifactItemCard
-              product={product}
-              artifactName={artifactName}
-              size={size}
-              scale={scale}
-            />
-          </Suspense>
-        ))}
+                <rect x="3" y="3" width="7" height="7" />
+                <rect x="14" y="3" width="7" height="7" />
+                <rect x="14" y="14" width="7" height="7" />
+                <rect x="3" y="14" width="7" height="7" />
+              </svg>
+            </button>
+            <button
+              className="p-2 border rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center gap-2"
+              onClick={() => setView("explorer")}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M3 6h18" />
+                <path d="M3 12h18" />
+                <path d="M3 18h18" />
+              </svg>
+            </button>
+          </div>
+        )}
       </div>
+
+      {explorer && view === "explorer" ? (
+        <div className="pb-10">
+          <ArtifactCanvasView
+            artifactName={artifactName}
+            description={description}
+            size={size}
+            artifacts={filteredProducts}
+            totalArtifacts={products.length}
+          />
+        </div>
+      ) : (
+        <div className="flex flex-wrap -mx-2">
+          {filteredProducts.map((product, idx) => (
+            <Suspense
+              key={idx}
+              fallback={
+                <div
+                  className={`p-1 md:basis-1/2 ${
+                    size === 4 ? "lg:basis-1/4" : "lg:basis-1/3"
+                  } basis-full text-left`}
+                >
+                  <div className="animate-pulse w-full h-[280px] lg:h-[320px] flex flex-col gap-2">
+                    <div className="h-6 bg-primaryText opacity-10 rounded-lg"></div>
+                    <div className="h-6 bg-primaryText opacity-10 rounded-lg w-[60%]"></div>
+                    <div className="h-6 bg-primaryText opacity-10 rounded-lg"></div>
+                  </div>
+                </div>
+              }
+            >
+              <ArtifactItemCard
+                product={product}
+                artifactName={artifactName}
+                size={size}
+                scale={scale}
+              />
+            </Suspense>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
