@@ -96,57 +96,63 @@ export function ArtifactListPage({
         <div className="w-full lg:w-1/2">{description}</div>
       </div>
 
-      <div className="flex justify-between">
-        <div className="py-4 flex gap-2">
-          <Dropdown
-            defaultValue="year"
-            label=""
-            prefix="Sort by"
-            options={[
-              {
-                label: "Year",
-                value: "dateObtained",
-              },
-              {
-                label: "Name",
-                value: "name",
-              },
-            ]}
-            onChange={(value) => {
-              setSortBy(value);
-            }}
-          />
+      <div className="flex justify-between lg:flex-row flex-col">
+        <div className="py-4 flex gap-2 lg:flex-row flex-col">
+          <div>
+            <Dropdown
+              defaultValue="year"
+              label=""
+              prefix="Sort by"
+              options={[
+                {
+                  label: "Year",
+                  value: "dateObtained",
+                },
+                {
+                  label: "Name",
+                  value: "name",
+                },
+              ]}
+              onChange={(value) => {
+                setSortBy(value);
+              }}
+            />
+          </div>
 
-          <Dropdown
-            defaultValue="desc"
-            label=""
-            options={[
-              {
-                label: "Ascending",
-                value: "asc",
-              },
-              {
-                label: "Descending",
-                value: "desc",
-              },
-            ]}
-            onChange={(value) => {
-              setSortOrder(value);
-            }}
-          />
+          <div>
+            <Dropdown
+              defaultValue="desc"
+              label=""
+              options={[
+                {
+                  label: "Ascending",
+                  value: "asc",
+                },
+                {
+                  label: "Descending",
+                  value: "desc",
+                },
+              ]}
+              onChange={(value) => {
+                setSortOrder(value);
+              }}
+            />
+          </div>
 
-          <Dropdown
-            defaultValue="all"
-            label=""
-            prefix="Filter by"
-            options={allTags.map((tag) => ({
-              label: tag.charAt(0).toUpperCase() + tag.slice(1),
-              value: tag,
-            }))}
-            onChange={(value) => {
-              setSelectedTag(value);
-            }}
-          />
+          <div>
+            <Dropdown
+              defaultValue="all"
+              label=""
+              prefix="Filter by"
+              options={allTags.map((tag) => ({
+                label: tag.charAt(0).toUpperCase() + tag.slice(1),
+                value: tag,
+              }))}
+              onChange={(value) => {
+                setSelectedTag(value);
+              }}
+            />
+          </div>
         </div>
 
         {explorer && (

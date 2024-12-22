@@ -64,7 +64,7 @@ const DraggableItem = memo(
             <img
               src={`/${artifactName}/output/${artifact.images.front}`}
               alt={artifact.title}
-              className="w-[160px] h-[160px] object-contain rounded-lg drop-shadow-[5px_5px_5px_#222]"
+              className="w-[150px] h-[150px] object-contain rounded-lg drop-shadow-[5px_5px_5px_#222]"
               draggable={false}
             />
           </div>
@@ -85,7 +85,7 @@ export function ArtifactCanvasView({
   const [containerSize, setContainerSize] = useState({ width: 0, height: 0 });
 
   // Use totalArtifacts for height calculation instead of filtered artifacts
-  const minHeight = Math.ceil(totalArtifacts / 10) * 100 + 100;
+  const minHeight = Math.ceil(totalArtifacts / 15) * 100 + 100;
 
   // Initialize positions with relative coordinates (0-1)
   const [positions, setPositions] = useState<Position[]>(() =>
@@ -139,7 +139,7 @@ export function ArtifactCanvasView({
       style={{ minHeight: `${minHeight}px` }}
     >
       <div className="opacity-40 absolute inset-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjEpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] bg-repeat"></div>
-      <div className="absolute inset-0 p-8 z-10">
+      <div className="absolute inset-0 p-1 z-10">
         {containerSize.width > 0 &&
           artifacts.map((artifact) => {
             const position = positions.find((p) => p.id === artifact.id);
