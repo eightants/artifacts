@@ -36,15 +36,24 @@ function App() {
   const [isDark, setIsDark] = useLocalStorage<boolean>("isDark", false);
 
   useEffect(() => {
-    if (!localStorage.getItem("isDark")) {
-      if (
-        window.matchMedia &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches
-      ) {
-        setIsDark(true);
-      }
+    const prefersDark = window.matchMedia?.(
+      "(prefers-color-scheme: dark)"
+    ).matches;
+    const storedValue = localStorage.getItem("isDark");
+
+    if (!storedValue) {
+      // No stored preference, use system preference
+      setIsDark(prefersDark);
     } else {
-      setIsDark(true);
+      const isDarkStored = storedValue === "true";
+      if (isDarkStored === prefersDark) {
+        // Clear localStorage if stored value matches system preference
+        localStorage.removeItem("isDark");
+        setIsDark(prefersDark);
+      } else {
+        // Use stored preference if different from system
+        setIsDark(isDarkStored);
+      }
     }
   }, [setIsDark]);
 

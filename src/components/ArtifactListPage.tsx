@@ -158,8 +158,8 @@ export function ArtifactListPage({
         {explorer && (
           <div className="py-4 flex gap-2">
             <button
-              className={`p-2 border rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center gap-2 ${
-                view === "grid" ? "bg-gray-100 dark:bg-gray-800" : ""
+              className={`p-2 border rounded-md hover:bg-primaryText/10 hover:text-primaryText flex items-center gap-2 ${
+                view === "grid" ? "bg-primaryText text-primary" : ""
               }`}
               onClick={() => setView("grid")}
             >
@@ -181,7 +181,9 @@ export function ArtifactListPage({
               </svg>
             </button>
             <button
-              className="p-2 border rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 flex items-center gap-2"
+              className={`p-2 border rounded-md hover:bg-primaryText/10 hover:text-primaryText flex items-center gap-2 ${
+                view === "explorer" ? "bg-primaryText text-primary" : ""
+              }`}
               onClick={() => setView("explorer")}
             >
               <svg
@@ -195,9 +197,12 @@ export function ArtifactListPage({
                 strokeLinecap="round"
                 strokeLinejoin="round"
               >
-                <path d="M3 6h18" />
-                <path d="M3 12h18" />
-                <path d="M3 18h18" />
+                <path d="M5 9l-3 3 3 3" />
+                <path d="M9 5l3-3 3 3" />
+                <path d="M19 9l3 3-3 3" />
+                <path d="M9 19l3 3 3-3" />
+                <path d="M2 12h20" />
+                <path d="M12 2v20" />
               </svg>
             </button>
           </div>
