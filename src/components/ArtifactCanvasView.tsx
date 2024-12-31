@@ -62,7 +62,7 @@ const DraggableItem = memo(
         >
           <div className="p-3 rounded-xl">
             <img
-              src={`/${artifactName}/output/${artifact.images.front}`}
+              src={`/${artifactName}/output_compressed/${artifact.images.front}`}
               alt={artifact.title}
               className="w-[150px] h-[150px] object-contain rounded-lg drop-shadow-[5px_5px_5px_#222]"
               draggable={false}
