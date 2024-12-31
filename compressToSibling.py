@@ -14,7 +14,7 @@ MAX_DIMENSION = 400  # Maximum width or height in pixels
 def compress_image(input_path: Path, output_path: Path):
     """
     Compress an image file to ensure it's under MAX_SIZE and no dimension exceeds MAX_DIMENSION.
-    Save the compressed image to the output_path, replacing if it already exists.
+    Maintain transparency for images with an alpha channel.
     """
     try:
         with Image.open(input_path) as img:
@@ -27,32 +27,35 @@ def compress_image(input_path: Path, output_path: Path):
                 img = img.resize(new_size, Image.Resampling.LANCZOS)
                 print(f"Resized {input_path} to {new_size}.")
 
-            # Determine the output format (default to JPEG if format is None or unsupported)
-            format = img.format
-            if not format or format not in {"JPEG", "PNG", "GIF", "BMP", "HEIC"}:
-                format = "JPEG"
+            # Handle transparency
+            if img.mode in ("RGBA", "LA") or (img.mode == "P" and "transparency" in img.info):
+                format = "PNG"  # Use PNG for transparent images
+                print(f"Saving {input_path} as PNG to maintain transparency.")
+            else:
+                format = "JPEG"  # Use JPEG for non-transparent images
+                if img.mode != "RGB":
+                    img = img.convert("RGB")
+                    print(f"Converted {input_path} to RGB for JPEG format.")
 
-            # Convert HEIC to JPEG for saving
-            if format == "HEIC":
-                format = "JPEG"
-
-            # Handle RGBA images for JPEG format
-            if format == "JPEG" and img.mode == "RGBA":
-                img = img.convert("RGB")
-                print(
-                    f"Converted {input_path} from RGBA to RGB for JPEG format.")
-
-            # Save with progressive reduction in quality
-            quality = 95
+            # Save with progressive reduction in quality or compression
+            quality = 95 if format == "JPEG" else None  # Quality applies to JPEG only
             while True:
-                img.save(output_path, format=format, quality=quality)
+                temp_file = output_path.with_suffix(f".temp.{format.lower()}")
+                img.save(temp_file, format=format,
+                         quality=quality, optimize=True)
 
-                if output_path.stat().st_size <= MAX_SIZE or quality <= 10:
+                if temp_file.stat().st_size <= MAX_SIZE or (quality is not None and quality <= 10):
+                    temp_file.rename(output_path)
                     print(f"Compressed and saved {output_path}.")
                     break
 
-                quality -= 5
-                print(f"Reducing quality to {quality} for {output_path}.")
+                if format == "JPEG":
+                    quality -= 5
+                    print(f"Reducing quality to {quality} for {output_path}.")
+                else:
+                    print(f"Unable to reduce size of {output_path} further.")
+                    temp_file.rename(output_path)
+                    break
 
     except Exception as e:
         print(f"Error processing {input_path}: {e}")
