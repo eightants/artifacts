@@ -7,8 +7,8 @@ import pillow_heif
 pillow_heif.register_heif_opener()
 
 # Constants
-MAX_SIZE = 100_000  # Maximum size in bytes (100 KB)
-MAX_DIMENSION = 400  # Maximum width or height in pixels
+MAX_SIZE = 50_000  # Maximum size in bytes (50 KB)
+MAX_DIMENSION = 300  # Maximum width or height in pixels
 
 
 def compress_image(input_path: Path, output_path: Path):
