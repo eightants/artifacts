@@ -293,3 +293,7 @@ p {
 .darkMode a.custom-link:hover {
   text-decoration-color: var(--color-gray-200);
 }
+
+code {
+  background-color: theme("colors.border");
+}

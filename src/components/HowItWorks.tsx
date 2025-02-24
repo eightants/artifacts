@@ -43,16 +43,29 @@ export function HowItWorks() {
               recommend Kaggle since you get 30 free GPU hours per week.
             </li>
             <li>
+              If your images contain multiple artifacts per photo, use{" "}
+              <a
+                href="https://www.kaggle.com/code/eightants/artifacts-multiple-bounding-boxes-in-one-image"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                this notebook
+              </a>{" "}
+              instead to segment out multiple artifacts per image. The results
+              are not as good, but saves more time.
+            </li>
+            <li>
               Once this is done, download the zip file output from Kaggle and
               upload all the segmented images to /shirts/output
             </li>
             <li>
               In App.tsx, update <code>artifactNames</code> to use the name of
-              your folder, in our case, shirts
+              your folder, in our case, <code>shirts</code>
             </li>
             <li>
               In generateData.js, update <code>artifactName</code> to use the
-              name of your folder, in our case, shirts. Then, run{" "}
+              name of your folder <code>shirts</code>. Then, run{" "}
               <code>node generateData.js</code>
             </li>
           </ol>
