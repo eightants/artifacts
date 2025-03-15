@@ -3,6 +3,8 @@ Because every item has a story
 
 We all hold onto things that carry memories: a concert tee, a festival sticker, a ticket stub, or a small keepsake from a friend. These items remind us of our favorite moments, but they also start to pile up.
 
+![Preview of site](https://artifacts.viewodyssey.com/preview.png)
+
 ## How it works
 Artifacts uses a Github repository as your digital space to archive the story, memory, and meaning of the things you have been holding onto without needing to keep every item.
 
